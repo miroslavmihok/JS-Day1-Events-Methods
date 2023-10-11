@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="container" style="text-align: center">
+        <div class="exercise">
+          <h1>Capitalize</h1>
+          <form action="#" id="capitalize-form">
+            <label for="capitalize_string">Enter your sentence:</label>
+            <input
+              type="text"
+              name="capitalize_string"
+              id="capitalize_string"
+            />
+            <br />
+            <button type="submit" class="capitalize_btn">Submit</button>
+            <button type="reset">Reset</button>
+            <br />
+            <label for="#">Capitalized sentence: </label>
+            <span id="capitalize_result">___</span>
+          </form>
+          <hr />
+        </div>
+        <div class="exercise">
+          <h1>Average Grade</h1>
+          <form action="#" id="average-form">
+            Enter your Grades
+            <br />
+            <label for="average_math">Math:</label>
+            <input type="number" name="average_math" id="average_math" />
+            <br />
+            <label for="average_physics">Physics:</label>
+            <input type="number" name="average_physics" id="average_physics" />
+            <br />
+            <label for="average_english">English:</label>
+            <input type="number" name="average_english" id="average_english" />
+            <br />
+            <button type="submit" class="average_btn">Submit</button>
+            <button type="reset">Reset</button>
+            <br />
+            <label for="average_sum">Sum: </label>
+            <span id="average_sum">___</span>
+            <br>
+            <label for="average_average">Average: </label>
+            <span id="average_average">___</span>
+          </form>
+          <hr />
+        </div>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

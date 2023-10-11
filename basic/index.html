@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="exercise">
+          <h1>ex 1 | Temperature v1.0</h1>
+          <ul>
+            <li><span id="weatherInt">0</span></li>
+            <li>The weather is: <span id="weatherStr">cold</span></li>
+            <button class="weather-btn">Random weather</button>
+          </ul>
+          <hr />
+        </div>
+        <div class="exercise">
+          <h1>ex 2 | Random Food</h1>
+          <ul>
+            <li>Your random food is: <span id="randomFood"> </span></li>
+            <button class="food-btn">Random food</button>
+          </ul>
+          <hr />
+        </div>
+        <div class="exercise" style="width: 50%; margin: 0 auto">
+          <h1>ex 3 | Crystal Gazer</h1>
+          <form action="#" id="myForm">
+            <label for="partners_name">partners_name</label>
+            <input type="text" name="partners_name" id="partners_name" />
+            <br />
+            <label for="location">location</label>
+            <input type="text" name="location" id="location" />
+            <br />
+            <label for="job_title">job_title</label>
+            <input type="text" name="job_title" id="job_title" />
+            <br />
+            <label for="children_number">children_number</label>
+            <input type="number" name="children_number" id="children_number" />
+            <br />
+            <button class="form-btn" type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </form>
+          <hr />
+        </div>
+        <div class="exercise">
+          <h1>ex 4 | Age Calculator</h1>
+          <form action="#" id="myBirthYearForm">
+            <label for="birth_year">Your birth year: </label>
+            <input type="number" name="birth_year" id="birth_year" />
+            <br />
+            <button class="myBirthYearForm-btn" type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </form>
+          <hr />
+        </div>
+        <div class="exercise">
+          <h1>ex 6 | Degree-Radian Conversion</h1>
+          <form action="#" id="radian_conversion">
+            <label for="degree_input">Enter degrees in &#x2103;:</label>
+            <input type="number" name="degree_input" id="degree_input" />
+            <br />
+            <button class="getRadian" type="submit">Submit</button>
+            <br />
+            <span id="radian_output">Your input in radians is: </span>
+          </form>
+          <hr />
+        </div>
+        <div class="exercise">
+          <h1>ex 7 | Area and Volume of a box</h1>
+          <form action="#" id="volume">
+            <label for="box_height">Box height:</label>
+            <input type="number" name="box_height" id="box_height" />
+            <br />
+            <label for="box_width">Box width:</label>
+            <input type="number" name="box_width" id="box_width" />
+            <br />
+            <label for="box_depth">Box depth:</label>
+            <input type="number" name="box_depth" id="box_depth" />
+            <br />
+            <button type="submit" class="getVolume">Submit</button>
+            <button type="reset">Reset</button>
+          </form>
+          <hr />
+        </div>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
